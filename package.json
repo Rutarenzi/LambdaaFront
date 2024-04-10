@@ -1,0 +1,30 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "Lambdaa front end project",
+  "main": "src/index.js",
+  "license": "MIT",
+  "type":"module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.2.8"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/material": "^5.15.15",
+    "@mui/styles": "^5.15.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-router": "^6.22.3",
+    "react-router-dom": "^6.22.3",
+    "yup": "^1.4.0"
+  }
+}
