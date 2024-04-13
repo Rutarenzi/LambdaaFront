@@ -1,12 +1,26 @@
-import './CategoryCard';
+
+import "./CategoryCard.css";
 
 
-const CategoryCard=()=>{
-    return(
-      <div className="Container">
-         Hello world  axcel
+const CategoryCard=({image,name})=>{
+  return(
+  <div className="CategoryCard">
+      <div className="CategoryImg">
+        <img 
+         src={image}
+         alt="Category card Image"
+         className="CatCard-Img"
+        />
       </div>
-    )
+      <div className="CatCard-Description">
+        <div className="First-Desc">
+         <h3>{name}</h3>
+         <a>Explore More!</a>
+        </div>
+        <a className="arrow">&rarr;</a>
+      </div>
+  </div>
+  )
 }
 
-export default CategoryCard;
+export default CategoryCard

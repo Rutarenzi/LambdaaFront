@@ -1,9 +1,9 @@
-
+import Pages from "./pages";
 
 const App=()=>{
     return(
-        <div style={{color:'red'}}>
-           <p>hello world</p> 
+        <div>
+           <Pages/>
         </div>
     )
 }

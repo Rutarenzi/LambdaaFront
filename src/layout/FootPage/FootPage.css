@@ -1,0 +1,70 @@
+.FootPage {
+    height: 70vh;
+    background: grey;
+    width: 100%;
+    padding :40px 0px;
+}
+.FootPage-Container {
+    width: 85%;
+    margin: auto;
+    height: 95%;
+}
+.firstLinks{
+    display: flex;
+}
+.FootIcon-Container{
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+}
+.socialIcon-Container{
+    display: flex;
+    flex-basis: 75%;
+    align-items: end;
+    justify-content: flex-start;
+}
+.socialIcon-Container a{
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background: white;
+}
+.App-Container{
+    flex-basis: 25%;
+    width: 100%;
+    height: 100%;
+    color: white
+}
+.AppImg-Container{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.App-Img{
+    height: 100%;
+    width: 45%;
+
+}
+
+.CopyRight {
+    text-align: center;
+    color: white
+}
+.select-Category {
+    height: 5vh;
+    margin-top: 10px
+}
+.select-Category form {
+    height: 100%;
+    width: 100%;
+}
+.selector {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background: grey;
+    color: white;
+    font-size: 18px;
+}

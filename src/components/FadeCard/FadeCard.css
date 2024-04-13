@@ -1,0 +1,13 @@
+
+
+.FeedCart-Container{
+    width: 95%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: solid 1px grey;
+}
+.FeedTop{
+    display: flex;
+    justify-content: space-between;
+}
