@@ -4,7 +4,7 @@
   "description": "Lambdaa front end project",
   "main": "src/index.js",
   "license": "MIT",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "start": "vite",
     "build": "vite build",
@@ -20,11 +20,17 @@
     "@mui/icons-material": "^5.15.15",
     "@mui/material": "^5.15.15",
     "@mui/styles": "^5.15.15",
+    "install": "^0.13.0",
+    "npm": "^10.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
     "react-material-ui-carousel": "^3.4.2",
     "react-router": "^6.22.3",
     "react-router-dom": "^6.22.3",
+    "react-slick": "^0.30.2",
+    "react-slideshow-image": "^4.3.1",
+    "slick-carousel": "^1.8.1",
     "yup": "^1.4.0"
   }
 }

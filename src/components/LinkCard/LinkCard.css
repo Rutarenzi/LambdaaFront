@@ -1,0 +1,13 @@
+.LinkCard {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+}
+.LinkCard h3{
+    color: white;
+    margin-bottom: 30px;
+  }
+.LinkCard a{
+  color: white;
+  margin-bottom: 14px;
+}

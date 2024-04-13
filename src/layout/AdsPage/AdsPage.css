@@ -1,0 +1,54 @@
+.AdsContainer{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    margin-bottom: 80px;
+}
+.First-Ads, .second-Ads {
+    flex-basis: 50%;
+    width: 50%;
+    height: 100%;
+}
+.AdsImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.First-Ads{
+    position: relative;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.First-Ads .AdsImg {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.second-Ads .AdsImg {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.First-Ads-Desc{
+    position: absolute;
+    width: 80%; 
+}
+.First-Ads-Desc .FirstP{
+    font-size: 30px;
+    color: white;
+    opacity: 0.7;
+}
+.First-Ads-Desc .SecondP{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.First-Ads-Desc .AdsBtn {
+    color: black;
+    padding: 10px 30px;
+    border: solid 1px white;
+    background-color: white;
+    border-radius:  8px;
+    font-weight: bold;
+}

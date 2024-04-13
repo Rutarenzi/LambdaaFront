@@ -1,0 +1,56 @@
+.BigC{
+    margin-bottom: 80px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.grid-container 
+.ContainerBig:first-child 
+.ImgCard{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1)
+}
+.grid-container 
+.ContainerBig:first-child 
+.downArrow{
+    text-align: center;
+    width: 50%;
+}
+
+.grid-container .ContainerBig:nth-child(1)
+{
+   justify-content: start;
+  
+}
+.grid-container .ContainerBig:nth-child(1) .descriptionBig
+{
+  text-align: start;
+  margin-left: 30px
+  
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* For smaller screens, switch to a 2-column layout */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

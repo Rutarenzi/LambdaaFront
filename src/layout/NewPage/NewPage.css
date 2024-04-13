@@ -1,0 +1,20 @@
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+
+
+.ArrowBtn{
+  border: none;
+  background: transparent;
+  font-size: 20px;
+}
+
+ .SliderContaneR{
+   width: 95%;
+ }
+.slidessContainer{
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 80px;
+}
